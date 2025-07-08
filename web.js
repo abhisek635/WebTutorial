@@ -2,12 +2,12 @@ let variable1 = "Coffee Bean"
 let variable2 = "Milk"
 
 // This is a coffee machine
-function CoffeMechine(parameter1, parameter2) {
+function CoffeMechine(variable1, variable2) {
     
     let output 
 
     // This is sensor
-    if(parameter1 == "Coffee Bean" && parameter2 == "Milk") {
+    if(variable1 == "Coffee Bean" && variable2 == "Milk") {
         output = "Milk Coffee"
     }
 
